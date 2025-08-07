@@ -276,7 +276,7 @@ export default function ContactPage() {
 
                 {/* Contact Form - Right Side */}
                 <div className="lg:col-span-3">
-                  <div className="bg-card border border-border/50 rounded-2xl p-6 md:p-8 shadow-sm">
+                  <div className="bg-card border border-border/50 rounded-2xl px-3 md:px-8 py-6 md:py-8 shadow-sm">
                     <div className="mb-8">
                       <h2 id="contact-main-title" className="text-xl md:text-2xl font-bold text-foreground mb-2">
                         {dict.contact_page.send_message_title}

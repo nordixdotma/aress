@@ -107,30 +107,30 @@ function StatsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12" role="list" aria-label="Statistiques Aress">
+        <div className="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-12" role="list" aria-label="Statistiques Aress">
           <div className="text-center" role="listitem">
-            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-2" aria-label={`Plus de ${closersCount} closers inscrits`}>
+            <div className="text-xl md:text-4xl lg:text-5xl font-bold text-primary mb-2" aria-label={`Plus de ${closersCount} closers inscrits`}>
               +{closersCount}
             </div>
-            <div className="text-base md:text-lg text-muted-foreground">
+            <div className="text-xs md:text-lg text-muted-foreground">
               {dict.closers?.closers_registered || "Closers inscrits"}
             </div>
           </div>
           
           <div className="text-center" role="listitem">
-            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-2" aria-label={`Plus de ${projectsCount} projets disponibles`}>
+            <div className="text-xl md:text-4xl lg:text-5xl font-bold text-primary mb-2" aria-label={`Plus de ${projectsCount} projets disponibles`}>
               +{projectsCount}
             </div>
-            <div className="text-base md:text-lg text-muted-foreground">
+            <div className="text-xs md:text-lg text-muted-foreground">
               {dict.closers?.projects_available || "Projets disponibles"}
             </div>
           </div>
           
           <div className="text-center" role="listitem">
-            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-2" aria-label={`Plus de ${commissionsCount}K commissions distribuées`}>
+            <div className="text-xl md:text-4xl lg:text-5xl font-bold text-primary mb-2" aria-label={`Plus de ${commissionsCount}K commissions distribuées`}>
               +{commissionsCount}K
             </div>
-            <div className="text-base md:text-lg text-muted-foreground">
+            <div className="text-xs md:text-lg text-muted-foreground">
               {dict.closers?.commissions_distributed || "Commissions distribuées"}
             </div>
           </div>
@@ -197,7 +197,7 @@ function HowItWorksSection() {
             <div key={index} className="border border-border rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-primary hover:ring-1 hover:ring-primary/20 group bg-card/20 backdrop-blur-sm">
               <button
                 onClick={() => toggleStep(index)}
-                className="flex w-full items-center justify-between p-6 text-left focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                className="flex w-full items-center justify-between p-4 md:p-6 text-left focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                 aria-expanded={openIndex === index}
                 aria-controls={`step-content-${index}`}
               >
@@ -302,7 +302,7 @@ function ClosersFaqSection() {
             <div key={index} className="border border-border rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-primary hover:ring-1 hover:ring-primary/20 group bg-card/20 backdrop-blur-sm">
               <button
                 onClick={() => toggleFaq(index)}
-                className="flex w-full items-center justify-between p-6 text-left focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                className="flex w-full items-center justify-between p-4 md:p-6 text-left focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                 aria-expanded={openIndex === index}
                 aria-controls={`faq-content-${index}`}
               >
@@ -322,7 +322,7 @@ function ClosersFaqSection() {
                   maxHeight: openIndex === index ? "400px" : "0px",
                   transition: "max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding 0.2s ease-in-out",
                   opacity: openIndex === index ? 1 : 0,
-                  padding: openIndex === index ? "0 24px 24px 24px" : "0 24px",
+                  padding: openIndex === index ? "0 16px 16px 16px" : "0 16px",
                   overflow: "hidden",
                 }}
                 aria-hidden={openIndex !== index}
@@ -526,9 +526,9 @@ export default function ClosersPage() {
           <HowItWorksSection />
 
           {/* Aress en vidéo Section */}
-          <section className="py-16 md:py-24" aria-labelledby="video-section-title">
+          <section className="py-8 md:py-24" aria-labelledby="video-section-title">
             <div className="mx-auto max-w-7xl px-4">
-              <div className="text-center mb-12">
+              <div className="text-center mb-6">
                 <h2 id="video-section-title" className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 inline-block bg-primary/5 px-6 py-3 rounded-full text-primary">
                   {dict.closers?.video_title || "Aress en vidéo"}
                 </h2>
@@ -553,9 +553,9 @@ export default function ClosersPage() {
           <ClosersFaqSection />
 
           {/* Payment Section */}
-          <section className="py-16 md:py-24 bg-muted/20" aria-labelledby="payment-process-title">
+          <section className="py-8 md:py-24 bg-muted/20" aria-labelledby="payment-process-title">
             <div className="mx-auto max-w-7xl px-4">
-              <div className="text-center mb-12">
+              <div className="text-center mb-6">
                 <h2 id="payment-process-title" className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 inline-block bg-primary/5 px-6 py-3 rounded-full text-primary">
                   {dict.closers?.payment_process_title || "Comment je suis payé ?"}
                 </h2>
@@ -575,9 +575,9 @@ export default function ClosersPage() {
           </section>
 
           {/* Understanding Aress Video Section */}
-          <section className="py-16 md:py-24" aria-labelledby="understanding-aress-title">
+          <section className="py-8 md:py-24" aria-labelledby="understanding-aress-title">
             <div className="mx-auto max-w-7xl px-4">
-              <div className="text-center mb-12">
+              <div className="text-center mb-6">
                 <h2 id="understanding-aress-title" className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 inline-block bg-primary/5 px-6 py-3 rounded-full text-primary">
                   {dict.closers?.understanding_aress_title || "Comprendre Aress en 45 secondes"}
                 </h2>

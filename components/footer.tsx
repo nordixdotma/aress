@@ -219,7 +219,7 @@ export default function Footer() {
 
           {/* Copyright - Centered on desktop */}
           <div className="mt-8 md:mt-12 border-t border-white/20 pt-6 md:pt-10 text-center">
-            <p className="text-base opacity-80">
+            <p className="text-sm md:text-base opacity-80">
               &copy; {new Date().getFullYear()} Aress Technologies. {dict.footer.copyright}
             </p>
           </div>

@@ -30,11 +30,11 @@ export default function CtaSection() {
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center min-h-[250px]">
             {/* Left Content */}
             <div className="p-6 md:p-8 lg:p-12 text-white lg:col-span-1 col-span-1">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">
                 {dict.cta_section.title}
               </h2>
 
-              <p className="text-sm md:text-md mb-6 opacity-90 leading-relaxed">{dict.cta_section.description}</p>
+              <p className="text-sm md:text-md mb-6 opacity-90 leading-tight md:leading-relaxed">{dict.cta_section.description}</p>
 
               <div className="space-y-6">
                 <Button
@@ -46,10 +46,10 @@ export default function CtaSection() {
                 </Button>
 
                 <div className="flex items-center space-x-3">
-                  <div className="w-6 h-6 rounded-full flex items-center justify-center bg-white">
+                  <div className="w-6 h-5 md:h-6 rounded-full flex items-center justify-center bg-white">
                     <Check className="w-4 h-4 bg-transparent text-[rgba(242,181,66,1)]" />
                   </div>
-                  <span className="text-white/90 text-base">{dict.cta_section.feature_text}</span>
+                  <span className="text-white/90 text-sm leading-tight md:leading-relaxed">{dict.cta_section.feature_text}</span>
                 </div>
               </div>
             </div>
