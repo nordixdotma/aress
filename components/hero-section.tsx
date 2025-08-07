@@ -47,7 +47,7 @@ export default function HeroSection() {
           <div className="flex-1 flex items-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 items-center w-full">
               {/* Left Column: Content */}
-              <div className="flex flex-col justify-center">
+              <div className="flex flex-col justify-center max-w-full md:max-w-none">
                 <div className="flex items-center mb-4 md:mb-6">
                   <div className="flex items-center space-x-2 md:space-x-3">
                     <div className="flex -space-x-2 md:-space-x-3">
@@ -73,11 +73,11 @@ export default function HeroSection() {
                     </div>
                   </div>
                 </div>
-                <h1 className="mb-3 md:mb-4 text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold tracking-tight text-white">
+                <h1 className="mb-3 md:mb-4 text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold tracking-tight text-white max-w-[90%] md:max-w-none">
                   {dict.hero.main_title || "Augmentez vos ventes sans payer de salaire."}
                 </h1>
-                <p className="mb-6 md:mb-8 text-xs md:text-lg text-white/90">{dict.hero.description}</p>
-                <div className="flex flex-row gap-2 md:flex-row md:gap-4 items-start">
+                <p className="mb-6 md:mb-8 text-xs md:text-lg text-white/90 max-w-[90%] md:max-w-none">{dict.hero.description}</p>
+                <div className="flex flex-row gap-2 md:flex-row md:gap-4 items-start max-w-[90%] md:max-w-none">
                   <Button
                     size="sm"
                     onClick={() => window.open("https://app-aress.cloud/inscription/business", "_blank")}
