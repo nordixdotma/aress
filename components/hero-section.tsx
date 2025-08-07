@@ -47,7 +47,7 @@ export default function HeroSection() {
           <div className="flex-1 flex items-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 items-center w-full">
               {/* Left Column: Content */}
-        <div className="flex flex-col justify-center max-w-[350px] w-full mx-auto md:max-w-none">
+              <div className="flex flex-col justify-center">
                 <div className="flex items-center mb-4 md:mb-6">
                   <div className="flex items-center space-x-2 md:space-x-3">
                     <div className="flex -space-x-2 md:-space-x-3">

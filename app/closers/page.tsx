@@ -499,7 +499,7 @@ export default function ClosersPage() {
 
             {/* Content */}
             <div className="relative z-10 mx-auto max-w-7xl px-4 flex-1 flex flex-col justify-center items-center text-center py-16 backdrop-blur-sm">
-              <h1 id="closers-hero-title" className="my-6 text-xl md:text-3xl lg:text-4xl xl:text-5xl font-bold tracking-tight text-white max-w-4xl">
+              <h1 id="closers-hero-title" className="my-6 text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold tracking-tight text-white max-w-4xl">
                 {dict.closers?.hero_title || "Travaillez librement"}
               </h1>
               <p className="mb-8 text-sm md:text-lg text-white/90 max-w-3xl leading-relaxed">

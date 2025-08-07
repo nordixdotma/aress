@@ -42,7 +42,7 @@ export default function Footer() {
             <div className="flex flex-col">
               {/* Logo */}
               <div className="flex items-center mb-4 md:mb-6">
-                <div className="h-10 w-auto">
+                <div className="h-9 w-auto">
                   <Image
                     src="/whitelogo.png"
                     alt="Aress"
