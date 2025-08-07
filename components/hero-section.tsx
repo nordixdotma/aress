@@ -43,7 +43,7 @@ export default function HeroSection() {
         </div>
 
         {/* Content with backdrop blur */}
-        <div className="relative z-10 mx-auto max-w-7xl px-4 flex-1 flex flex-col justify-between py-4 backdrop-blur-sm">
+        <div className="relative z-10 mx-auto max-w-7xl mt-12 px-4 flex-1 flex flex-col justify-between py-4 backdrop-blur-sm">
           <div className="flex-1 flex items-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 items-center w-full">
               {/* Left Column: Content */}
