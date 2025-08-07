@@ -99,7 +99,7 @@ export default function HeroSection() {
                 </div>
               </div>
 
-              {/* Right Column: Image */}
+              {/* Right Column: Image with Floating Elements */}
               <div className="hidden md:flex justify-center md:justify-end">
                 <div className="relative h-[250px] w-full max-w-[650px] md:h-[325px] lg:h-[350px] rounded-lg overflow-hidden shadow-xl border border-white/20">
                   <Image
@@ -109,6 +109,79 @@ export default function HeroSection() {
                     className="object-cover"
                     priority
                   />
+                  
+                  {/* Floating business-related cards */}
+                  <div className="absolute inset-0 pointer-events-none">
+                    {/* Commission Only Card */}
+                    <div 
+                      className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm rounded-xl p-3 shadow-xl border border-white/20 animate-float-1 flex items-center space-x-2"
+                      style={{ animationDelay: "0s" }}
+                    >
+                      <div className="w-8 h-8 bg-gradient-to-r from-primary to-blue-600 rounded-full flex items-center justify-center">
+                        <span className="text-white text-sm font-bold">%</span>
+                      </div>
+                      <div className="text-sm">
+                        <div className="font-bold text-gray-800">{dict.hero.commission_only}</div>
+                        <div className="text-gray-600 text-xs">Seulement</div>
+                      </div>
+                    </div>
+                    
+                    {/* No Fixed Costs Card */}
+                    <div 
+                      className="absolute top-1/3 left-2 bg-white/95 backdrop-blur-sm rounded-xl p-3 shadow-xl border border-white/20 animate-float-2 flex items-center space-x-2"
+                      style={{ animationDelay: "-1s" }}
+                    >
+                      <div className="w-8 h-8 bg-gradient-to-r from-[#f2b542] to-yellow-500 rounded-full flex items-center justify-center">
+                        <span className="text-white text-sm font-bold">0€</span>
+                      </div>
+                      <div className="text-sm">
+                        <div className="font-bold text-gray-800">{dict.hero.no_fixed_costs}</div>
+                        <div className="text-gray-600 text-xs">Zéro</div>
+                      </div>
+                    </div>
+                    
+                    {/* Active Closers Card */}
+                    <div 
+                      className="absolute bottom-6 right-6 bg-white/95 backdrop-blur-sm rounded-xl p-3 shadow-xl border border-white/20 animate-float-3 flex items-center space-x-2"
+                      style={{ animationDelay: "-2s" }}
+                    >
+                      <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
+                        <span className="text-white text-sm font-bold">👨‍💼</span>
+                      </div>
+                      <div className="text-sm">
+                        <div className="font-bold text-gray-800">600+</div>
+                        <div className="text-gray-600 text-xs">{dict.hero.closers_available}</div>
+                      </div>
+                    </div>
+                    
+                    {/* Success Rate Card */}
+                    <div 
+                      className="absolute bottom-6 left-4 bg-white/95 backdrop-blur-sm rounded-xl p-3 shadow-xl border border-white/20 animate-float-1 flex items-center space-x-2"
+                      style={{ animationDelay: "-3s" }}
+                    >
+                      <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-violet-600 rounded-full flex items-center justify-center">
+                        <span className="text-white text-sm font-bold">✓</span>
+                      </div>
+                      <div className="text-sm">
+                        <div className="font-bold text-gray-800">89%</div>
+                        <div className="text-gray-600 text-xs">Taux succès</div>
+                      </div>
+                    </div>
+                    
+                    {/* 24/7 Available Card */}
+                    <div 
+                      className="absolute top-1/2 right-1/4 bg-white/95 backdrop-blur-sm rounded-xl p-3 shadow-xl border border-white/20 animate-float-2 flex items-center space-x-2"
+                      style={{ animationDelay: "-1.5s" }}
+                    >
+                      <div className="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center">
+                        <span className="text-white text-sm font-bold">24</span>
+                      </div>
+                      <div className="text-sm">
+                        <div className="font-bold text-gray-800">24/7</div>
+                        <div className="text-gray-600 text-xs">Disponible</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -39,15 +39,31 @@ export default function Home() {
       setContentReady(true)
     }
 
-    const hash = window.location.hash
-    if (hash) {
-      const elementId = hash.substring(1)
-      const element = document.getElementById(elementId)
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" })
+    // Handle hash scrolling with a delay to ensure content is rendered
+    const handleHashScroll = () => {
+      const hash = window.location.hash
+      if (hash) {
+        const elementId = hash.substring(1)
+        const element = document.getElementById(elementId)
+        if (element) {
+          // Add a small delay to ensure the element is fully rendered
+          setTimeout(() => {
+            element.scrollIntoView({ behavior: "smooth", block: "start" })
+          }, 100)
+        }
       }
     }
-  }, [searchParams])
+
+    // Handle hash scrolling immediately if content is ready
+    if (contentReady) {
+      handleHashScroll()
+    }
+
+    // Also handle hash scrolling when content becomes ready
+    const timeoutId = setTimeout(handleHashScroll, 200)
+
+    return () => clearTimeout(timeoutId)
+  }, [searchParams, contentReady])
 
   const handleLoaderAnimationEnd = () => {
     setShowLoader(false)

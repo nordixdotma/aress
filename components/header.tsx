@@ -90,12 +90,19 @@ export default function Header() {
     if (smooth && href.startsWith('/#')) {
       e.preventDefault()
       const targetId = href.substring(2) // Remove '/#'
-      const targetElement = document.getElementById(targetId)
-      if (targetElement) {
-        targetElement.scrollIntoView({ 
-          behavior: 'smooth',
-          block: 'start'
-        })
+      
+      if (pathname === '/') {
+        // Already on homepage, scroll smoothly
+        const targetElement = document.getElementById(targetId)
+        if (targetElement) {
+          targetElement.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+          })
+        }
+      } else {
+        // Not on homepage, navigate to homepage with hash
+        window.location.href = href
       }
     }
   }
