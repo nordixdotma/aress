@@ -73,7 +73,7 @@ export default function HeroSection() {
                     </div>
                   </div>
                 </div>
-                <h1 className="mb-3 md:mb-4 text-3xl md:text-3xl lg:text-3xl xl:text-4xl font-bold tracking-tight text-white max-w-[90%] md:max-w-none">
+                <h1 className="mb-3 md:mb-4 text-3xl md:text-3xl lg:text-3xl xl:text-4xl font-bold tracking-tight text-white max-w-[85%] md:max-w-none">
                   {dict.hero.main_title || "Augmentez vos ventes sans payer de salaire."}
                 </h1>
                 <p className="mb-6 md:mb-8 text-xs md:text-lg text-white/90 max-w-[90%] md:max-w-none">{dict.hero.description}</p>
