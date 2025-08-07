@@ -1,0 +1,672 @@
+{
+  "header": {
+    "our_work": "Our Work",
+    "offers": "Offers",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "about": "About",
+    "contact": "Contact",
+    "get_a_quote": "Get a Quote",
+    "switch_to_light_mode": "Switch to Light Mode",
+    "switch_to_dark_mode": "Switch to Dark Mode",
+    "accueil": "Home",
+    "tarification": "Pricing",
+    "closers": "Closers",
+    "connexion": "Login",
+    "reserver_demo": "Book a Demo"
+  },
+  "payment": {
+    "title": "Results-Based Payment",
+    "subtitle": "A results-driven philosophy",
+    "description": "With a symbolic platform subscription, you maintain total control over your budget: no successful deal, no commission to pay.",
+    "step1_title": "Define a budget",
+    "step1_description": "Define the commission you're willing to offer for each completed deal, whether it's a signed contract, successful sale, or any other achieved objective.",
+    "step2_title": "Pay only for success",
+    "step2_description": "For each deal completed by a closer (salesperson), you pay the commission you previously defined. You can assign different commissions based on each objective achieved.",
+    "cta1": "View subscription plans",
+    "cta2": "Sign up for free"
+  },
+  "services_overview": {
+    "title": "SERVICES",
+    "main_title": "What you can do with Aress",
+    "description": "Access hundreds of closers (sales professionals) for various missions adapted to your business needs.",
+    "direct_sales": "Direct sales",
+    "door_to_door": "Door to door",
+    "lead_generation": "Lead generation",
+    "product_demo": "Product demonstration",
+    "sample_distribution": "Sample distribution",
+    "partner_identification": "Partner identification"
+  },
+  "cta_section": {
+    "title": "Strengthen your local and national presence",
+    "description": "Access a network of experienced closers throughout France and internationally. Develop your business without geographical constraints.",
+    "cta_button": "Free Demo",
+    "feature_text": "Platform demonstration, no commitment."
+  },
+  "hero": {
+    "subtitle": "ARESS INTERNATIONAL CLOSING SOLUTIONS",
+    "main_title": "Increase your sales without paying salaries.",
+    "description": "Access an experienced field sales force and pay only for results.",
+    "cta_button": "Sign Up",
+    "satisfied_business_owners": "satisfied business owners",
+    "creative_web_solutions": "Creative Web Solutions",
+    "that_drive_results": "That Drive Results",
+    "discover_services": "Discover our services",
+    "get_a_quote": "Get a Quote",
+    "clean_code": "Clean Code",
+    "modern_standards": "Modern Standards",
+    "creative_design": "Creative Design",
+    "pixel_perfect": "Pixel Perfect",
+    "lightning_fast": "Lightning Fast",
+    "optimized_performance": "Optimized Performance",
+    "sites_created": "sites created in 12 years",
+    "it_matters": "It Matters which Agency you Trust",
+    "reviews": "500+ Reviews",
+    "website_5_pages": "5-page website",
+    "starting_from": "starting from €60 / month",
+    "satisfied_clients": "satisfied clients",
+    "title_part1": "International Closing",
+    "title_part2": "Solutions Paid on Results",
+    "clients_served": "clients served",
+    "trusted_by_businesses": "Trusted by businesses",
+    "commission_only": "Commission only",
+    "no_fixed_costs": "No fixed costs",
+    "closers_available": "closers available"
+  },
+  "our_work": {
+    "title": "Our Latest Work",
+    "title_part1": "Our Latest",
+    "title_part2": "Work",
+    "subtitle": "Discover the websites we've crafted for businesses like yours",
+    "projects_completed": "Projects Completed",
+    "live_demo": "Live Demo",
+    "ecommerce_platform_title": "E-commerce Platform",
+    "ecommerce_platform_description": "Modern e-commerce solution with seamless user experience and secure payments.",
+    "corporate_website_title": "Corporate Website Redesign",
+    "corporate_website_description": "Professional corporate identity with clean design and enhanced user engagement.",
+    "saas_dashboard_title": "SaaS Dashboard UI/UX",
+    "saas_dashboard_description": "Intuitive and lightning-fast dashboard for data visualization and management.",
+    "restaurant_website_title": "Restaurant Website",
+    "restaurant_website_description": "Appetizing design for culinary business with online ordering.",
+    "mobile_app_landing_page_title": "Mobile App Landing Page",
+    "mobile_app_landing_page_description": "Conversion-focused landing page to promote your new mobile application.",
+    "portfolio_website_title": "Portfolio Website",
+    "portfolio_website_description": "Showcase your creative work with a stunning and responsive portfolio.",
+    "blog_platform_title": "Blog Platform",
+    "blog_platform_description": "A dynamic blog platform for content creators and publishers."
+  },
+  "offers": {
+    "title": "Choose the Plan That Moves You",
+    "title_part1": "Choose the Plan That Moves",
+    "title_part2": "You",
+    "subtitle": "Flexible memberships. No startup fees. Cancel anytime.",
+    "starter_plan_name": "Starter Plan",
+    "starter_plan_price_period": "/project",
+    "starter_plan_description": "Perfect for small businesses and startups looking to establish their online presence",
+    "starter_plan_features": [
+      "Responsive Web Design",
+      "Up to 5 Pages",
+      "Basic SEO Setup",
+      "Contact Form Integration",
+      "Mobile Optimization",
+      "1 Month Support",
+      "Social Media Integration",
+      "Basic Analytics Setup"
+    ],
+    "pro_plan_name": "Pro Plan",
+    "pro_plan_price_period": "/project",
+    "pro_plan_description": "Ideal for growing businesses that need advanced features and functionality",
+    "pro_plan_features": [
+      "Everything in Starter",
+      "Up to 15 Pages",
+      "Advanced SEO Optimization",
+      "E-commerce Integration",
+      "Custom Animations",
+      "3 Months Support",
+      "Advanced Analytics",
+      "Performance Optimization"
+    ],
+    "elite_plan_name": "Elite Plan",
+    "elite_plan_price_period": "/project",
+    "elite_plan_description": "Complete solution for enterprises requiring custom development and premium features",
+    "elite_plan_features": [
+      "Everything in Pro",
+      "Unlimited Pages",
+      "Custom Web Application",
+      "Advanced Integrations",
+      "Premium Support",
+      "6 Months Support",
+      "Custom CMS",
+      "Priority Development"
+    ],
+    "button_text": "Get Started",
+    "most_popular": "Most Popular",
+    "price_after_negotiation": "Price after negotiation",
+    "custom_solution_prompt": "Need a custom solution? We'd love to discuss your project requirements.",
+    "contact_custom_quote": "Contact Us for Custom Quote"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive web solutions tailored to your business needs and goals",
+    "web_development_title": "Web Development",
+    "web_development_description": "Custom websites built with modern technologies and best practices for optimal performance and user experience.",
+    "web_development_features": ["Responsive Design", "Fast Loading", "SEO Optimized", "Secure & Reliable"],
+    "ui_ux_design_title": "UI/UX Design",
+    "ui_ux_design_description": "Beautiful and intuitive designs that engage users and drive conversions with pixel-perfect attention to detail.",
+    "ui_ux_design_features": ["User Research", "Wireframing", "Prototyping", "Visual Design"],
+    "ecommerce_solutions_title": "E-commerce Solutions",
+    "ecommerce_solutions_description": "Complete online stores with secure payment processing, inventory management, and seamless shopping experiences.",
+    "ecommerce_solutions_features": [
+      "Payment Integration",
+      "Inventory Management",
+      "Order Tracking",
+      "Mobile Commerce"
+    ],
+    "seo_optimization_title": "SEO Optimization",
+    "seo_optimization_description": "Improve your search engine rankings and drive organic traffic with our comprehensive SEO strategies.",
+    "seo_optimization_features": ["Keyword Research", "On-Page SEO", "Technical SEO", "Performance Tracking"],
+    "mobile_development_title": "Mobile Development",
+    "mobile_development_description": "Native and cross-platform mobile applications that deliver exceptional user experiences on all devices.",
+    "mobile_development_features": [
+      "iOS Development",
+      "Android Development",
+      "Cross-Platform",
+      "App Store Optimization"
+    ],
+    "performance_optimization_title": "Performance Optimization",
+    "performance_optimization_description": "Speed up your website and improve user experience with our advanced performance optimization techniques.",
+    "performance_optimization_features": ["Speed Optimization", "Core Web Vitals", "CDN Setup", "Image Optimization"],
+    "closing_title": "Sales Closing",
+    "closing_description": "Experienced field sales force, paid only on results to maximize your conversions.",
+    "closing_features": ["Experienced Closers", "Results-Based Payment", "Continuous Training", "Personal Follow-up"],
+    "lead_generation_title": "Lead Generation",
+    "lead_generation_description": "Targeted prospecting and lead qualification to fuel your sales pipeline.",
+    "lead_generation_features": [
+      "Targeted Prospecting",
+      "Advanced Qualification",
+      "Integrated CRM",
+      "Detailed Reporting"
+    ],
+    "business_development_title": "Business Development",
+    "business_development_description": "Business development strategies to expand your presence in new markets.",
+    "business_development_features": [
+      "Market Analysis",
+      "Sales Strategy",
+      "International Expansion",
+      "Strategic Partnerships"
+    ],
+    "sales_training_title": "Sales Training",
+    "sales_training_description": "Train your teams in the most effective closing and negotiation techniques.",
+    "sales_training_features": [
+      "Closing Techniques",
+      "Advanced Negotiation",
+      "Objection Handling",
+      "Personal Follow-up"
+    ],
+    "crm_integration_title": "CRM Integration",
+    "crm_integration_description": "Complete integration with your existing CRM tools for optimal performance tracking.",
+    "crm_integration_features": ["Seamless Integration", "Automated Reporting", "Dashboards", "Advanced Analytics"],
+    "performance_tracking_title": "Performance Tracking",
+    "performance_tracking_description": "Real-time monitoring of your sales performance with detailed KPIs.",
+    "performance_tracking_features": ["Real-time KPIs", "Detailed Reports", "Continuous Optimization", "ROI Tracking"],
+    "why_aress_title": "Why Aress?",
+    "why_aress_subtitle": "Comprehensive solutions tailored to your business needs and goals"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "title_part1": "What Our Clients",
+    "title_part2": "Say",
+    "subtitle": "Read what our satisfied clients have to say about our web development and design services",
+    "ceo_techstart": "CEO, TechStart",
+    "marketing_director_growthco": "Sales Director, GrowthCo",
+    "founder_creativestudio": "Founder, CreativeStudio",
+    "ecommerce_manager": "E-commerce Manager",
+    "product_manager_innovatelab": "Product Manager, InnovateLab",
+    "brand_manager_stylecorp": "Brand Manager, StyleCorp",
+    "google": "Google",
+    "quote_1": "Aress transformed our online presence completely. Their attention to detail and creative approach exceeded our expectations. Our website now perfectly represents our brand and drives real results.",
+    "quote_2": "Working with Aress was a game-changer for our business. They delivered a fast, beautiful, and user-friendly website that has significantly increased our conversions and customer engagement.",
+    "quote_3": "The team at Aress is incredibly professional and talented. They understood our vision and brought it to life with stunning design and flawless functionality that exceeded all expectations.",
+    "quote_4": "Exceptional service from start to finish. Aress delivered our project on time and within budget. The results speak for themselves - our traffic has doubled and conversions increased by 150%.",
+    "quote_5": "I highly recommend Aress for anyone looking for top-quality web development. Their expertise in modern technologies and design trends is unmatched in the industry.",
+    "quote_6": "Aress doesn't just build websites, they create digital experiences. Our customers love the new site, and we've seen a significant improvement in engagement and user satisfaction.",
+    "quote_7": "Aress revolutionized our sales approach. Their experienced closers increased our conversions by 300% in just 3 months. Paying only for results allowed us to test risk-free.",
+    "quote_8": "Thanks to Aress, we could focus on our product while they handled our sales. Their international closers team opened new markets we could never have reached alone.",
+    "quote_9": "Aress's closing expertise is exceptional. They trained our internal team and provided external closers. The ROI was immediate and results exceed our expectations.",
+    "quote_10": "As a startup, we couldn't afford to hire a complete sales team. Aress gave us access to experienced professionals without fixed costs. It's a game-changer.",
+    "quote_11": "Aress's transparency and results are remarkable. We tripled our revenue in 6 months thanks to their methodical approach and high-level closers.",
+    "quote_12": "Aress doesn't just provide closers, they bring a real sales strategy. Their support helped us structure our sales process from A to Z."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "title_part1": "Frequently Asked",
+    "title_part2": "Questions",
+    "subtitle": "Find answers to common questions about our web development services.",
+    "q1": "How long does it take to build a website?",
+    "a1": "The timeline depends on the complexity of your project. A basic website typically takes 1-2 weeks, while more complex sites with custom features can take 4-8 weeks. We'll provide you with a detailed timeline during our initial consultation.",
+    "q2": "Do you provide ongoing support and maintenance?",
+    "a2": "Yes, we offer comprehensive support and maintenance packages. This includes regular updates, security monitoring, backups, and technical support to ensure your website runs smoothly and stays secure.",
+    "q3": "Can you help with SEO and digital marketing?",
+    "a3": "We build all our websites with SEO best practices in mind. We also offer additional SEO services, content marketing, and digital advertising to help grow your online presence and drive more traffic to your site.",
+    "q4": "Will my website be mobile-friendly?",
+    "a4": "Yes, all our websites are fully responsive and optimized for mobile devices. We follow mobile-first design principles to ensure your site looks and works perfectly on smartphones, tablets, and desktops.",
+    "q5": "What if I need changes after the website is completed?",
+    "a5": "We include a revision period with every project, and we're always available for updates and modifications. We can also train you to make simple content updates yourself, or handle all changes for you through our maintenance services.",
+    "q6": "Do you work with existing websites or only build new ones?",
+    "a6": "We work with both! Whether you need a complete website redesign, want to add new features to an existing site, or need to migrate to a new platform, we can help improve and modernize your current web presence.",
+    "q7": "How does results-based payment work?",
+    "a7": "You only pay when our closers generate confirmed sales. We define validation criteria together and you only pay a commission on achieved results. No fixed costs, no salaries to pay.",
+    "q8": "How long does it take to see first results?",
+    "a8": "Generally, first results appear within 2-4 weeks after launch. Our experienced closers quickly adapt to your product and market to start generating sales rapidly.",
+    "q9": "Which sectors do you work in?",
+    "a9": "We work in all B2B and B2C sectors: SaaS, e-commerce, services, real estate, training, consulting, etc. Our closers are trained to adapt to different types of products and markets.",
+    "q10": "How do you guarantee the quality of your closers?",
+    "a10": "All our closers are selected according to strict criteria of experience and performance. They follow continuous training and are regularly evaluated. We only work with proven professionals.",
+    "q11": "Can I track performance in real-time?",
+    "a11": "Yes, you have access to a complete dashboard that allows you to track your closers' performance in real-time: number of calls, conversion rate, generated revenue, etc. Total transparency guaranteed.",
+    "q12": "Do you work internationally?",
+    "a12": "Yes, we have closers in more than 15 countries and can operate in all international markets. Our teams master the cultural and commercial specificities of each region."
+  },
+  "footer": {
+    "description": "Access a sales force immediately, without fixed costs.",
+    "quick_links": "Quick Links",
+    "our_work": "Our Work",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "company": "Company",
+    "about_us": "About Us",
+    "contact": "Contact",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "get_in_touch": "Get In Touch",
+    "email_us": "contact@aress.cloud",
+    "call_us": "+1 (555) 123-4567",
+    "visit_us": "New York, NY",
+    "newsletter_prompt": "Subscribe to our newsletter for updates and tips.",
+    "email_placeholder": "Your email address",
+    "subscribe": "Subscribe",
+    "copyright": "All rights reserved.",
+    "careers": "Careers",
+    "business": "Business",
+    "navigation": "Navigation",
+    "users": "Users",
+    "inscription": "Sign Up",
+    "aress_academy": "Aress Academy",
+    "closers": "Closers",
+    "aide": "Help",
+    "contact_us": "Contact Us"
+  },
+  "contact_page": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to start your project? Let's discuss how we can help bring your vision to life.",
+    "conversation_title": "Let's Start a Conversation",
+    "conversation_description": "We're here to help you succeed. Whether you need a new website, want to redesign your current one, or have questions about our services, we'd love to hear from you.",
+    "email_us": "Email Us",
+    "call_us": "Call Us",
+    "visit_us": "Visit Us",
+    "business_hours": "Business Hours",
+    "mon_fri": "Mon - Fri: 9:00 AM - 6:00 PM",
+    "quick_response_title": "Quick Response",
+    "quick_response_description": "We typically respond to all inquiries within 24 hours. For urgent matters, please call us directly.",
+    "send_message_title": "Send Us a Message",
+    "full_name": "Full Name *",
+    "email_address": "Email Address *",
+    "company": "Company",
+    "phone_number": "Phone Number",
+    "service_interested_in": "Service Interested In",
+    "select_service": "Select a service",
+    "web_development": "Web Development",
+    "ui_ux_design": "UI/UX Design",
+    "ecommerce_solutions": "E-commerce Solutions",
+    "seo_optimization": "SEO Optimization",
+    "mobile_development": "Mobile Development",
+    "other": "Other",
+    "message": "Message *",
+    "message_placeholder": "Tell us about your project...",
+    "send_message_button": "Send Message",
+    "sending_message": "Sending...",
+    "success_message": "Message sent successfully! We'll get back to you as soon as possible.",
+    "error_message": "Error sending message. Please try again or contact us directly."
+  },
+  "floating_contact": {
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "call_now": "Call Now"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Discover the team behind Aress and our mission to transform your online presence",
+    "who_we_are_title": "Who We Are",
+    "who_we_are_description": "Aress is a next-gen web design and development agency helping businesses around the world upgrade their online presence with sleek, responsive, SEO-optimized websites.",
+    "who_we_are_description_2": "We're a small, agile team of designers, developers, and strategists — obsessed with good design, clean code, and results that slap. Whether you're launching your first site or rebranding your brand, we've got you covered.",
+    "clean_code": "Clean Code",
+    "clean_code_desc": "Modern standards and maintainable code",
+    "good_design": "Good Design",
+    "good_design_desc": "Elegant and functional interfaces",
+    "results": "Results",
+    "results_desc": "Sites that convert and perform",
+    "agile_team": "Agile Team",
+    "agile_team_desc": "Small team, big achievements",
+    "mission_title": "Our Mission",
+    "mission_description": "Too many businesses are losing customers because their websites are slow, outdated, or just... not it. Our mission is to help brands — big or small, local or global — stand out online with sites that convert, rank, and feel premium.",
+    "no_wait_times": "No Wait Times",
+    "no_wait_times_desc": "No 6-month wait times",
+    "no_bloated_fees": "No Bloated Fees",
+    "no_bloated_fees_desc": "No bloated agency fees",
+    "high_quality": "High Quality",
+    "high_quality_desc": "High-quality work, fast",
+    "why_nuxesdweb_title": "Why Aress?",
+    "why_features": [
+      {
+        "title": "Lightning-Fast Turnaround",
+        "description": "Days, not months",
+        "icon": "Zap"
+      },
+      {
+        "title": "Mobile-First Design",
+        "description": "Because no one's browsing on desktop anymore",
+        "icon": "Smartphone"
+      },
+      {
+        "title": "SEO-Optimized",
+        "description": "Your site will rank, period",
+        "icon": "Search"
+      },
+      {
+        "title": "Built to Convert",
+        "description": "Pretty AND powerful",
+        "icon": "Target"
+      },
+      {
+        "title": "Real Human Support",
+        "description": "You'll never talk to a robot",
+        "icon": "Users"
+      }
+    ],
+    "who_we_help_title": "Who We Help",
+    "who_we_help_description": "We work with businesses ready to go digital, agencies looking to outsource, content creators, e-commerce brands, and startups that need something clean, fast, and investor-ready.",
+    "clients": [
+      {
+        "title": "Small Businesses",
+        "description": "Ready to go digital"
+      },
+      {
+        "title": "Agencies",
+        "description": "Looking to outsource or white-label"
+      },
+      {
+        "title": "Content Creators",
+        "description": "Coaches, solo founders, and entrepreneurs"
+      },
+      {
+        "title": "E-commerce Brands",
+        "description": "That want more conversions"
+      },
+      {
+        "title": "Startups",
+        "description": "That need something clean, fast, and investor-ready"
+      },
+      {
+        "title": "International Businesses",
+        "description": "From Canada to Europe, U.S. to Morocco"
+      }
+    ],
+    "lets_work_title": "Let's Work",
+    "lets_work_description": "We don't just build websites. We build digital experiences that make people stay, scroll, and click.",
+    "get_started_button": "Start a Project",
+    "email_title": "Contact Us",
+    "location_title": "Our Location",
+    "location_description": "Based on Earth, working remotely everywhere"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Learn about how Aress Technologies collects, uses, and protects your personal data",
+    "last_updated": "Last updated",
+    "update_date": "December 01, 2024",
+    "introduction_title": "Introduction",
+    "introduction": "Aress Technologies is committed to protecting the privacy and security of its users' personal data. This Privacy Policy explains what information we collect, how we use it, the conditions under which we share it, and users' rights regarding their data.\n\nBy accessing our website aress.cloud (hereinafter referred to as \"the Site\") or using our services, you accept the practices described in this policy.",
+    "section1": {
+      "title": "1. Collection of personal data",
+      "description": "We collect different categories of personal data depending on your interaction with the Site:",
+      "subsection1": {
+        "title": "1.1 Data you provide directly:",
+        "items": [
+          "Registration information: Name, first name, email address, phone number, company name, password.",
+          "Transaction information: Billing address, payment details, transaction history.",
+          "Documents required for verification: Copies of identity documents or other identity proofs."
+        ]
+      },
+      "subsection2": {
+        "title": "1.2 Data collected automatically:",
+        "items": [
+          "Technical data: IP address, browser type, operating system, device identifiers.",
+          "Navigation data: Pages visited, time spent on the Site, interactions with content.",
+          "Cookies and similar technologies: See section 7 for more details."
+        ]
+      },
+      "subsection3": {
+        "title": "1.3 Data from third parties:",
+        "description": "We may receive personal data about you via:",
+        "items": [
+          "Business partners (e.g.: integration with third-party tools).",
+          "Identity verification services.",
+          "Publicly accessible databases or social networks if you interact with our pages."
+        ]
+      }
+    },
+    "section2": {
+      "title": "2. Use of personal data",
+      "description": "We use your data to:",
+      "items": [
+        "Provide our services: Create and manage your account, enable use of Site features, facilitate transactions between businesses and sales professionals.",
+        "Improve user experience: Personalize content and recommendations, analyze usage data to optimize our services.",
+        "Comply with our legal obligations: Identity verification, tax and regulatory compliance.",
+        "Communicate with you: Notifications about updates, security alerts, promotions or special offers.",
+        "Ensure security: Prevent fraud, secure transactions and detect unauthorized activities."
+      ]
+    },
+    "section3": {
+      "title": "3. Sharing of personal data",
+      "description": "Your personal data will never be sold. We share your data only in the following circumstances:",
+      "subsection1": {
+        "title": "3.1 With trusted third parties:",
+        "items": [
+          "Service providers: Hosting, payment services, analytics tools, customer support.",
+          "Business partners: As part of collaborations to offer complementary services."
+        ]
+      },
+      "subsection2": {
+        "title": "3.2 For legal reasons:",
+        "items": [
+          "If required by law, court order or regulatory authority.",
+          "To protect our rights, prevent fraud or respond to disputes."
+        ]
+      },
+      "subsection3": {
+        "title": "3.3 In case of structural change:",
+        "description": "If Aress Technologies is involved in a merger, acquisition or asset sale, your data could be transferred to the new entity."
+      }
+    },
+    "section4": {
+      "title": "4. Data retention",
+      "description": "We retain your personal data as long as necessary to:",
+      "items": [
+        "Provide our services.",
+        "Comply with our legal and contractual obligations.",
+        "Resolve disputes or enforce our rights."
+      ],
+      "conclusion": "Once these periods expire, your data will be deleted or anonymized."
+    },
+    "section5": {
+      "title": "5. User rights",
+      "description": "In compliance with Moroccan legislation (notably law n° 09-08) and GDPR if applicable, you have the following rights:",
+      "rights": [
+        "Access: Request a copy of personal data held by Aress Technologies.",
+        "Rectification: Correct inaccurate or incomplete information.",
+        "Deletion: Request deletion of your data (except legal or contractual obligations).",
+        "Portability: Receive your data in a structured, machine-readable format.",
+        "Opposition: Refuse processing of your data for direct marketing purposes.",
+        "Restriction: Temporarily limit processing of your data in certain circumstances."
+      ],
+      "contact_info": "To exercise your rights, contact us at: contact@aress.cloud."
+    },
+    "section6": {
+      "title": "6. Data security",
+      "description": "We implement technical and organizational measures to protect your data against:",
+      "items": [
+        "Unauthorized access.",
+        "Accidental loss or destruction.",
+        "Malicious acts (cyberattacks, hacking)."
+      ],
+      "conclusion": "Our systems integrate encryption technologies, firewalls, and regular security audits."
+    },
+    "section7": {
+      "title": "7. Use of cookies",
+      "description": "We use cookies and similar technologies to improve your experience.",
+      "subsection1": {
+        "title": "7.1 Types of cookies:",
+        "items": [
+          "Essential: Necessary for proper Site functioning.",
+          "Analytics: To track Site performance and usage.",
+          "Marketing: To personalize advertisements and content."
+        ]
+      },
+      "subsection2": {
+        "title": "7.2 Manage your preferences:",
+        "description": "You can configure your browser to refuse or limit cookie usage. However, this could affect certain Site functionalities."
+      }
+    },
+    "section8": {
+      "title": "8. International data transfer",
+      "description": "Your data may be transferred and stored outside Morocco, including in countries offering different levels of data protection. We ensure all transfers are governed by appropriate safeguards, in accordance with applicable laws."
+    },
+    "section9": {
+      "title": "9. User responsibilities",
+      "description": "As a user, you are responsible for:",
+      "items": [
+        "Providing accurate and up-to-date information.",
+        "Protecting your login credentials and passwords.",
+        "Reporting any suspected fraudulent use of your account."
+      ]
+    },
+    "section10": {
+      "title": "10. Privacy Policy modifications",
+      "description": "We reserve the right to modify this policy to reflect legal or operational changes. Any update will be published on this page with a revision date."
+    },
+    "section11": {
+      "title": "11. Contact us",
+      "description": "For any questions or concerns regarding this Privacy Policy, you can contact us:",
+      "contact_details": [
+        "Postal address: Aress Technologies, 332 Bd Brahim Roudani, Maarif, Casablanca, Morocco.",
+        "Email: contact@aress.cloud"
+      ],
+      "conclusion": "This Privacy Policy reflects our commitment to respecting your data and ensuring complete transparency about its use."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Questions about this policy? Write to us at contact@aress.cloud or via our contact page.",
+      "contact_button": "Contact Us",
+      "email_button": "Send Email"
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Read our terms of service and discover the rules for using our website",
+    "last_updated": "Last updated",
+    "update_date": "July 2025",
+    "welcome": {
+      "title": "Welcome",
+      "description": "Welcome to our website",
+      "acceptance": "By browsing or using our services, you fully accept these Terms of Service. If this doesn't suit you, don't use our site."
+    },
+    "section1": {
+      "title": "Site Access",
+      "description": "Access to our site is free and open to everyone.",
+      "features": "However, some features may require direct contact or a personalized quote.",
+      "modification": "We reserve the right to modify or suspend the site without notice (but we avoid ghosting)."
+    },
+    "section2": {
+      "title": "Intellectual Property",
+      "description": "All content on the site — texts, images, videos, code, design — is the exclusive property of Aress, unless otherwise stated.",
+      "restriction": "Reproduction, distribution, or use without authorization = no."
+    },
+    "section3": {
+      "title": "Proper Site Usage",
+      "description": "You commit to:",
+      "commitments": [
+        "Not using the site for illegal or fraudulent purposes",
+        "Not attempting to hack, spam, or overload our servers",
+        "Respecting our agency, our content, and our work (yes, we see everything)"
+      ]
+    },
+    "section4": {
+      "title": "Responsibilities",
+      "description": "We do everything to keep the site up-to-date, fast, and bug-free… But we don't guarantee it's 100% perfect or available 24/7.",
+      "no_liability": "Aress cannot be held responsible in case of:",
+      "exclusions": [
+        "Temporary technical bug",
+        "Misinterpretation of content",
+        "Abusive or unauthorized use of the site"
+      ]
+    },
+    "section5": {
+      "title": "External Links",
+      "description": "Some pages may contain links to other sites (tools, services, blogs). We verify sources, but we don't control their content or privacy policy."
+    },
+    "section6": {
+      "title": "Terms Modification",
+      "description": "These Terms of Service may be updated at any time. You will be informed via the site. The most recent version will always be available here."
+    },
+    "section7": {
+      "title": "Applicable Law",
+      "description": "These terms are governed by the laws in force in Canada. Any dispute will be submitted to the competent jurisdictions."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Questions? An issue? Contact us at contact@aress.cloud",
+      "contact_button": "Contact Us",
+      "email_button": "Send Email"
+    }
+  },
+  "closers": {
+    "hero_title": "Work Freely",
+    "hero_description": "Do the job you're passionate about, work according to your schedule and choose the missions that suit you.",
+    "cta_button": "Sign Up",
+    "stats_title": "Aress in Numbers",
+    "stats_description": "Join the revolution, choose projects that excite you, make deals and earn commissions.",
+    "closers_registered": "Registered Closers",
+    "projects_available": "Available Projects",
+    "commissions_distributed": "Commissions Distributed",
+    "how_it_works_title": "How Does It Work?",
+    "step1_title": "Sign up for free",
+    "step1_description": "Create your account in just a few clicks and access the platform for free. Sign up with your personal information to get started.",
+    "step2_title": "Complete your profile",
+    "step2_description": "Fill in your skills, experience and preferences to stand out to companies. A complete profile increases your chances of being selected.",
+    "step3_title": "Choose your projects",
+    "step3_description": "Browse available missions (Projects) and select those that match your skills, availability and professional goals.",
+    "step4_title": "Start working",
+    "step4_description": "Join a project, start working at your own pace and make deals. Track your progress directly on the platform.",
+    "step5_title": "Receive your commissions",
+    "step5_description": "Once the deal is validated, quickly receive your payments with complete transparency. Your efforts are rewarded according to your performance.",
+    "faq_title": "Frequently Asked Questions",
+    "video_title": "Aress in Video",
+    "payment_process_title": "How Am I Paid?",
+    "understanding_aress_title": "Understanding Aress in 45 Seconds",
+    "faq_q1": "1. How to register on Aress?",
+    "faq_a1": "Start by registering as a Closer by entering your email and password. Then, fill out your profile by adding your experiences, languages you speak and your weekly availability.\n\nOnce your profile is created and validated, complete the remaining information (e.g. 30-second presentation video).\n\n📌 Note: The more complete your profile, the more chances you have of being accepted in several projects.",
+    "faq_q2": "2. How am I paid?",
+    "faq_a2": "You are paid for each deal made, that is, for each result obtained.\n\n💼 A deal can be:\n✔️ A confirmed appointment\n✔️ A completed sale\n✔️ Any other commercial result requested\n\nPayments are made by bank transfer to your account.",
+    "faq_q3": "3. When am I paid?",
+    "faq_a3": "Payment for validated deals is made once a week, every Monday.\n\n📅 You receive at the beginning of each week all commissions generated the previous week.",
+    "faq_q4": "4. How can I be sure of being paid?",
+    "faq_a4": "Aress only works with reliable companies.\nA guarantee system ensures all commissions.\n\n🔹 Blue badge \"Guaranteed Commission\": Aress has collected the commission in advance.\n🔹 Projects without badge: Very low risk, but possible payment delay.\n\n⚠️ In case of incident, Aress excludes the Business and finds an arrangement with the Closers.",
+    "faq_q5": "5. Am I paid for hours worked?",
+    "faq_a5": "❌ No, Aress operates on a results-based payment model.\nYou work as a freelancer: you use your means to provide results.\n\n➡️ Each result provided is well compensated.",
+    "faq_q6": "6. How much can I earn by making deals?",
+    "faq_a6": "It depends on your commitment and projects.\n\n📊 Goal: allow a full-time Closer to earn between 6,000 and 10,000 dirhams/month.\n\n📈 Earning more or less depends only on you.",
+    "faq_q7": "7. Do I have to pay anything to start on Aress?",
+    "faq_a7": "💰 No, no payment is required.\n✅ Registration is free.\n✅ You can join as many projects as you want.\n\n🚀 Join Aress now and start closing your first deals!"
+  }
+}

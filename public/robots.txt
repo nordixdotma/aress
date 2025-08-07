@@ -1,0 +1,25 @@
+# Robots.txt for Aress.cloud
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow important crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Sitemap location
+Sitemap: https://aress.cloud/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1

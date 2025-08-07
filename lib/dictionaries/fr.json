@@ -1,0 +1,657 @@
+{
+  "header": {
+    "our_work": "Nos Projets",
+    "offers": "Offres",
+    "services": "Services",
+    "testimonials": "Témoignages",
+    "faq": "FAQ",
+    "about": "À Propos",
+    "contact": "Contact",
+    "get_a_quote": "Obtenir un Devis",
+    "switch_to_light_mode": "Passer en mode clair",
+    "switch_to_dark_mode": "Passer en mode sombre",
+    "accueil": "Accueil",
+    "tarification": "Tarification",
+    "closers": "Closers",
+    "connexion": "Connexion",
+    "reserver_demo": "Réserver une démo"
+  },
+  "hero": {
+    "subtitle": "ARESS INTERNATIONAL CLOSING SOLUTIONS",
+    "main_title": "Augmentez vos ventes sans payer de salaire.",
+    "description": "Accédez à une force commerciale sur le terrain, expérimentée, et payez uniquement au résultat.",
+    "cta_button": "Inscription",
+    "satisfied_clients": "clients satisfaits",
+    "creative_web_solutions": "Solutions Web Créatives",
+    "that_drive_results": "Qui Génèrent des Résultats",
+    "discover_services": "Découvrir nos services",
+    "get_a_quote": "Obtenir un Devis",
+    "clean_code": "Code Propre",
+    "modern_standards": "Standards Modernes",
+    "creative_design": "Design Créatif",
+    "pixel_perfect": "Pixel Parfait",
+    "lightning_fast": "Ultra Rapide",
+    "optimized_performance": "Performance Optimisée",
+    "sites_created": "sites créés en 12 ans",
+    "it_matters": "L'Agence que vous choisissez compte",
+    "trusted_by_businesses": "Fait confiance par les entreprises",
+    "reviews": "500+ Avis",
+    "commission_only": "Uniquement à la commission",
+    "no_fixed_costs": "Aucun coût fixe",
+    "closers_available": "closers disponibles"
+  },
+  "payment": {
+    "title": "Paiement au résultat",
+    "subtitle": "Une philosophie du résultat",
+    "description": "Moyennant un abonnement symbolique à la plateforme, vous gardez un contrôle total sur votre budget : aucun deal réussi, aucune commission à payer.",
+    "step1_title": "Définir un budget",
+    "step1_description": "Définissez la commission que vous êtes prêt à offrir pour chaque deal réalisé, qu'il s'agisse d'un contrat signé, d'une vente réussie ou de tout autre objectif atteint.",
+    "step2_title": "Payer uniquement au succès",
+    "step2_description": "Pour chaque deal réalisé par un closer (commercial), vous payez la commission que vous avez définie au préalable. Vous pouvez attribuer des commissions différentes en fonction de chaque objectif atteint.",
+    "cta1": "Voir les plans d'abonnement",
+    "cta2": "S'inscrire gratuitement"
+  },
+  "services_overview": {
+    "title": "SERVICES",
+    "main_title": "Ce que vous pouvez faire avec Aress",
+    "description": "Accédez à des centaines de closers (commerciaux) pour diverses missions adaptées aux besoins de votre entreprise.",
+    "direct_sales": "Vente directe",
+    "door_to_door": "Porte à porte",
+    "lead_generation": "Génération de leads",
+    "product_demo": "Démonstration de produits",
+    "sample_distribution": "Distribution d'échantillons",
+    "partner_identification": "Identification de partenaires"
+  },
+  "cta_section": {
+    "title": "Renforcez votre présence locale et nationale",
+    "description": "Accédez à un réseau de closers expérimentés dans toute la France et à l'international. Développez votre business sans contraintes géographiques.",
+    "cta_button": "Démo gratuite",
+    "feature_text": "Démonstration de la plateforme, sans engagement."
+  },
+  "our_work": {
+    "title": "Nos Derniers Travaux",
+    "title_part1": "Nos Derniers",
+    "title_part2": "Travaux",
+    "subtitle": "Découvrez les sites web que nous avons conçus pour des entreprises comme la vôtre",
+    "projects_completed": "Projets Réalisés",
+    "live_demo": "Démo en Direct",
+    "ecommerce_platform_title": "Plateforme E-commerce",
+    "ecommerce_platform_description": "Solution e-commerce moderne avec une expérience utilisateur fluide et des paiements sécurisés.",
+    "corporate_website_title": "Refonte de Site Web Corporatif",
+    "corporate_website_description": "Identité corporative professionnelle avec un design épuré et un engagement utilisateur amélioré.",
+    "saas_dashboard_title": "UI/UX Tableau de Bord SaaS",
+    "saas_dashboard_description": "Tableau de bord intuitif et ultra-rapide pour la visualisation et la gestion des données.",
+    "restaurant_website_title": "Site Web de Restaurant",
+    "restaurant_website_description": "Design appétissant pour les entreprises culinaires avec commande en ligne.",
+    "mobile_app_landing_page_title": "Page de Destination d'Application Mobile",
+    "mobile_app_landing_page_description": "Page de destination axée sur la conversion pour promouvoir votre nouvelle application mobile.",
+    "portfolio_website_title": "Site Web de Portfolio",
+    "portfolio_website_description": "Présentez votre travail créatif avec un portfolio époustouflant et réactif.",
+    "blog_platform_title": "Plateforme de Blog",
+    "blog_platform_description": "Une plateforme de blog dynamique pour les créateurs de contenu et les éditeurs."
+  },
+  "offers": {
+    "title": "Choisissez le Plan Qui Vous Convient",
+    "title_part1": "Choisissez le Plan Qui Vous",
+    "title_part2": "Convient",
+    "subtitle": "Abonnements flexibles. Pas de frais de démarrage. Annulez à tout moment.",
+    "starter_plan_name": "Plan Démarrage",
+    "starter_plan_price_period": "/projet",
+    "starter_plan_description": "Parfait pour les petites entreprises et les startups cherchant à établir leur présence en ligne",
+    "starter_plan_features": [
+      "Conception Web Réactive",
+      "Jusqu'à 5 Pages",
+      "Configuration SEO de Base",
+      "Intégration de Formulaire de Contact",
+      "Optimisation Mobile",
+      "1 Mois de Support",
+      "Intégration Réseaux Sociaux",
+      "Configuration Analytique de Base"
+    ],
+    "pro_plan_name": "Plan Pro",
+    "pro_plan_price_period": "/projet",
+    "pro_plan_description": "Idéal pour les entreprises en croissance qui ont besoin de fonctionnalités avancées",
+    "pro_plan_features": [
+      "Tout inclus dans le Plan Démarrage",
+      "Jusqu'à 15 Pages",
+      "Optimisation SEO Avancée",
+      "Intégration E-commerce",
+      "Animations Personnalisées",
+      "3 Mois de Support",
+      "Analytiques Avancées",
+      "Optimisation des Performances"
+    ],
+    "elite_plan_name": "Plan Élite",
+    "elite_plan_price_period": "/projet",
+    "elite_plan_description": "Solution complète pour les entreprises nécessitant un développement personnalisé et des fonctionnalités premium",
+    "elite_plan_features": [
+      "Tout inclus dans le Plan Pro",
+      "Pages Illimitées",
+      "Application Web Personnalisée",
+      "Intégrations Avancées",
+      "Support Premium",
+      "6 Mois de Support",
+      "CMS Personnalisé",
+      "Développement Prioritaire"
+    ],
+    "button_text": "Commencer",
+    "most_popular": "Le Plus Populaire",
+    "price_after_negotiation": "Prix après négociation",
+    "custom_solution_prompt": "Besoin d'une solution personnalisée ? Nous serions ravis de discuter de vos besoins.",
+    "contact_custom_quote": "Contactez-nous pour un Devis Personnalisé"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Des solutions de closing complètes adaptées à vos besoins commerciaux",
+    "web_development_title": "Développement Web",
+    "web_development_description": "Sites web personnalisés construits avec des technologies modernes et les meilleures pratiques pour des performances et une expérience utilisateur optimales.",
+    "web_development_features": ["Design Réactif", "Chargement Rapide", "Optimisé SEO", "Sécurisé & Fiable"],
+    "ui_ux_design_title": "Conception UI/UX",
+    "ui_ux_design_description": "Des designs magnifiques et intuitifs qui engagent les utilisateurs et stimulent les conversions avec une attention méticuleuse aux détails.",
+    "ui_ux_design_features": ["Recherche Utilisateur", "Wireframing", "Prototypage", "Conception Visuelle"],
+    "ecommerce_solutions_title": "Solutions E-commerce",
+    "ecommerce_solutions_description": "Boutiques en ligne complètes avec traitement sécurisé des paiements, gestion des stocks et expériences d'achat fluides.",
+    "ecommerce_solutions_features": [
+      "Intégration de Paiement",
+      "Gestion des Stocks",
+      "Suivi des Commandes",
+      "Commerce Mobile"
+    ],
+    "seo_optimization_title": "Optimisation SEO",
+    "seo_optimization_description": "Améliorez votre classement dans les moteurs de recherche et générez du trafic organique grâce à nos stratégies SEO complètes.",
+    "seo_optimization_features": ["Recherche de Mots-clés", "SEO On-Page", "SEO Technique", "Suivi des Performances"],
+    "mobile_development_title": "Développement Mobile",
+    "mobile_development_description": "Applications mobiles natives et multiplateformes qui offrent des expériences utilisateur exceptionnelles sur tous les appareils.",
+    "mobile_development_features": [
+      "Développement iOS",
+      "Développement Android",
+      "Multiplateforme",
+      "Optimisation App Store"
+    ],
+    "performance_optimization_title": "Optimisation des Performances",
+    "performance_optimization_description": "Accélérez votre site web et améliorez l'expérience utilisateur grâce à nos techniques avancées d'optimisation des performances.",
+    "performance_optimization_features": [
+      "Optimisation de la Vitesse",
+      "Core Web Vitals",
+      "Configuration CDN",
+      "Optimisation d'Images"
+    ],
+    "closing_title": "Closing Commercial",
+    "closing_description": "Force de vente expérimentée sur le terrain, payée uniquement au résultat pour maximiser vos conversions.",
+    "closing_features": ["Closers Expérimentés", "Paiement au Résultat", "Formation Continue", "Suivi Personnalisé"],
+    "lead_generation_title": "Génération de Leads",
+    "lead_generation_description": "Prospection ciblée et qualification de prospects pour alimenter votre pipeline commercial.",
+    "lead_generation_features": ["Prospection Ciblée", "Qualification Avancée", "CRM Intégré", "Reporting Détaillé"],
+    "business_development_title": "Développement Commercial",
+    "business_development_description": "Stratégies de développement commercial pour étendre votre présence sur de nouveaux marchés.",
+    "business_development_features": [
+      "Analyse de Marché",
+      "Stratégie Commerciale",
+      "Expansion Internationale",
+      "Partenariats Stratégiques"
+    ],
+    "sales_training_title": "Formation Commerciale",
+    "sales_training_description": "Formation de vos équipes aux techniques de closing et de négociation les plus efficaces.",
+    "sales_training_features": [
+      "Techniques de Closing",
+      "Négociation Avancée",
+      "Gestion d'Objections",
+      "Suivi Personnalisé"
+    ],
+    "crm_integration_title": "Intégration CRM",
+    "crm_integration_description": "Intégration complète avec vos outils CRM existants pour un suivi optimal des performances.",
+    "crm_integration_features": [
+      "Intégration Seamless",
+      "Reporting Automatisé",
+      "Tableaux de Bord",
+      "Analytics Avancées"
+    ],
+    "performance_tracking_title": "Suivi des Performances",
+    "performance_tracking_description": "Monitoring en temps réel de vos performances commerciales avec des KPIs détaillés.",
+    "performance_tracking_features": [
+      "KPIs en Temps Réel",
+      "Rapports Détaillés",
+      "Optimisation Continue",
+      "ROI Tracking"
+    ],
+    "why_aress_title": "Pourquoi Aress ?",
+    "why_aress_subtitle": "Des solutions complètes adaptées à vos besoins commerciaux et objectifs"
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Clients",
+    "title_part1": "Ce Que Disent Nos",
+    "title_part2": "Clients",
+    "subtitle": "Découvrez les témoignages de nos clients satisfaits qui ont boosté leurs ventes avec Aress",
+    "ceo_techstart": "PDG, TechStart",
+    "marketing_director_growthco": "Directeur Commercial, GrowthCo",
+    "founder_creativestudio": "Fondateur, CreativeStudio",
+    "sales_manager": "Directeur des Ventes",
+    "business_owner": "Propriétaire d'Entreprise",
+    "startup_founder": "Fondateur de Startup",
+    "quote_1": "Aress a révolutionné notre approche commerciale. Leurs closers expérimentés ont augmenté nos conversions de 300% en seulement 3 mois. Le fait de payer uniquement au résultat nous a permis de tester sans risque.",
+    "quote_2": "Grâce à Aress, nous avons pu nous concentrer sur notre produit pendant qu'ils s'occupaient de nos ventes. Leur équipe de closers internationaux nous a ouvert de nouveaux marchés que nous n'aurions jamais pu atteindre seuls.",
+    "quote_3": "L'expertise d'Aress en closing est exceptionnelle. Ils ont formé notre équipe interne et nous ont fourni des closers externes. Le ROI a été immédiat et les résultats dépassent nos attentes.",
+    "quote_4": "En tant que startup, nous n'avions pas les moyens d'embaucher une équipe commerciale complète. Aress nous a donné accès à des professionnels expérimentés sans les coûts fixes. C'est un game-changer.",
+    "quote_5": "La transparence et les résultats d'Aress sont remarquables. Nous avons triplé notre chiffre d'affaires en 6 mois grâce à leur approche méthodique et leurs closers de haut niveau.",
+    "quote_6": "Aress ne se contente pas de fournir des closers, ils apportent une véritable stratégie commerciale. Leur accompagnement nous a permis de structurer notre processus de vente de A à Z."
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "title_part1": "Questions Fréquemment",
+    "title_part2": "Posées",
+    "subtitle": "Trouvez des réponses aux questions courantes sur nos solutions de closing.",
+    "q1": "Comment fonctionne le paiement au résultat ?",
+    "a1": "Vous ne payez que lorsque nos closers génèrent des ventes confirmées. Nous définissons ensemble les critères de validation d'une vente et vous ne payez qu'une commission sur les résultats obtenus. Aucun coût fixe, aucun salaire à verser.",
+    "q2": "Combien de temps faut-il pour voir les premiers résultats ?",
+    "a2": "Généralement, les premiers résultats apparaissent dans les 2-4 semaines suivant le lancement. Nos closers expérimentés s'adaptent rapidement à votre produit et à votre marché pour commencer à générer des ventes rapidement.",
+    "q3": "Dans quels secteurs intervenez-vous ?",
+    "a3": "Nous intervenons dans tous les secteurs B2B et B2C : SaaS, e-commerce, services, immobilier, formation, consulting, etc. Nos closers sont formés pour s'adapter à différents types de produits et de marchés.",
+    "q4": "Comment garantissez-vous la qualité de vos closers ?",
+    "a4": "Tous nos closers sont sélectionnés selon des critères stricts d'expérience et de performance. Ils suivent une formation continue et sont évalués régulièrement. Nous ne travaillons qu'avec des professionnels ayant fait leurs preuves.",
+    "q5": "Puis-je suivre les performances en temps réel ?",
+    "a5": "Oui, vous avez accès à un dashboard complet qui vous permet de suivre en temps réel les performances de vos closers : nombre d'appels, taux de conversion, chiffre d'affaires généré, etc. Transparence totale garantie.",
+    "q6": "Travaillez-vous à l'international ?",
+    "a6": "Oui, nous avons des closers dans plus de 15 pays et pouvons intervenir sur tous les marchés internationaux. Nos équipes maîtrisent les spécificités culturelles et commerciales de chaque région."
+  },
+  "footer": {
+    "description": "Accédez à une force commerciale immédiatement, sans charges fixes.",
+    "quick_links": "Liens Rapides",
+    "our_work": "Nos Projets",
+    "services": "Services",
+    "testimonials": "Témoignages",
+    "faq": "FAQ",
+    "company": "Entreprise",
+    "about_us": "À Propos",
+    "careers": "Carrières",
+    "privacy_policy": "Politique de Confidentialité",
+    "terms_of_service": "Conditions d'Utilisation",
+    "get_in_touch": "Nous Contacter",
+    "email_us": "contact@aress.cloud",
+    "call_us": "+33 1 23 45 67 89",
+    "visit_us": "Paris, France",
+    "newsletter_prompt": "Abonnez-vous à notre newsletter pour les dernières actualités.",
+    "email_placeholder": "Votre adresse e-mail",
+    "subscribe": "S'abonner",
+    "copyright": "Tous droits réservés.",
+    "business": "Business",
+    "navigation": "Navigation",
+    "users": "Utilisateurs",
+    "inscription": "Inscription",
+    "aress_academy": "Aress Academy",
+    "closers": "Closers",
+    "aide": "Aide",
+    "contact_us": "Contactez-nous"
+  },
+  "contact_page": {
+    "title": "Prenez Contact",
+    "subtitle": "Prêt à démarrer votre projet ? Discutons de la manière dont nous pouvons vous aider à concrétiser votre vision.",
+    "conversation_title": "Commençons une Conversation",
+    "conversation_description": "Nous sommes là pour vous aider à réussir. Que vous ayez besoin d'un nouveau site web, que vous souhaitiez refondre votre site actuel ou que vous ayez des questions sur nos services, nous serions ravis de vous entendre.",
+    "email_us": "Envoyez-nous un e-mail",
+    "call_us": "Appelez-nous",
+    "visit_us": "Rendez-nous visite",
+    "business_hours": "Heures d'ouverture",
+    "mon_fri": "Lun - Ven : 9h00 - 18h00",
+    "quick_response_title": "Réponse Rapide",
+    "quick_response_description": "Nous répondons généralement à toutes les demandes dans les 24 heures. Pour les questions urgentes, veuillez nous appeler directement.",
+    "send_message_title": "Envoyez-nous un Message",
+    "full_name": "Nom Complet *",
+    "email_address": "Adresse E-mail *",
+    "company": "Entreprise",
+    "phone_number": "Numéro de Téléphone",
+    "service_interested_in": "Service Qui Vous Intéresse",
+    "select_service": "Sélectionnez un service",
+    "web_development": "Développement Web",
+    "ui_ux_design": "Conception UI/UX",
+    "ecommerce_solutions": "Solutions E-commerce",
+    "seo_optimization": "Optimisation SEO",
+    "mobile_development": "Développement Mobile",
+    "other": "Autre",
+    "message": "Message *",
+    "message_placeholder": "Parlez-nous de votre projet...",
+    "send_message_button": "Envoyer le Message",
+    "sending_message": "Envoi en cours...",
+    "success_message": "Message envoyé avec succès ! Nous vous répondrons dans les plus brefs délais.",
+    "error_message": "Erreur lors de l'envoi du message. Veuillez réessayer ou nous contacter directement."
+  },
+  "floating_contact": {
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "call_now": "Appeler Maintenant"
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "subtitle": "Découvrez l'équipe derrière Aress et notre mission de transformer votre présence en ligne",
+    "who_we_are_title": "Qui Nous Sommes",
+    "who_we_are_description": "Aress est une agence de conception et de développement web de nouvelle génération qui aide les entreprises du monde entier à améliorer leur présence en ligne avec des sites web élégants, réactifs et optimisés pour le SEO.",
+    "who_we_are_description_2": "Nous sommes une petite équipe agile de designers, développeurs et stratèges — obsédés par le bon design, le code propre et les résultats qui marquent. Que vous lanciez votre premier site ou que vous rebrandiez votre marque, nous vous couvrons.",
+    "clean_code": "Code Propre",
+    "clean_code_desc": "Standards modernes et code maintenable",
+    "good_design": "Bon Design",
+    "good_design_desc": "Interfaces élégantes et fonctionnelles",
+    "results": "Résultats",
+    "results_desc": "Sites qui convertissent et performent",
+    "agile_team": "Équipe Agile",
+    "agile_team_desc": "Petite équipe, grandes réalisations",
+    "mission_title": "Notre Mission",
+    "mission_description": "Trop d'entreprises perdent des clients parce que leurs sites web sont lents, obsolètes ou simplement... pas au niveau. Notre mission est d'aider les marques — grandes ou petites, locales ou mondiales — à se démarquer en ligne avec des sites qui convertissent, se classent et se sentent premium.",
+    "no_wait_times": "Pas de Délais",
+    "no_wait_times_desc": "Pas d'attente de 6 mois",
+    "no_bloated_fees": "Pas de Frais Gonflés",
+    "no_bloated_fees_desc": "Pas de frais d'agence gonflés",
+    "high_quality": "Haute Qualité",
+    "high_quality_desc": "Travail de qualité, rapidement",
+    "why_nuxesdweb_title": "Pourquoi Aress ?",
+    "why_features": [
+      {
+        "title": "Délais Ultra-Rapides",
+        "description": "Jours, pas des mois",
+        "icon": "Zap"
+      },
+      {
+        "title": "Design Mobile-First",
+        "description": "Parce que personne ne navigue plus sur desktop",
+        "icon": "Smartphone"
+      },
+      {
+        "title": "Optimisé SEO",
+        "description": "Votre site se classera, point final",
+        "icon": "Search"
+      },
+      {
+        "title": "Conçu pour Convertir",
+        "description": "Joli ET puissant",
+        "icon": "Target"
+      },
+      {
+        "title": "Support Humain Réel",
+        "description": "Vous ne parlerez jamais à un robot",
+        "icon": "Users"
+      }
+    ],
+    "who_we_help_title": "Qui Nous Aidons",
+    "who_we_help_description": "Nous travaillons avec des entreprises prêtes à passer au numérique, des agences cherchant à externaliser, des créateurs de contenu, des marques e-commerce et des startups qui ont besoin de quelque chose de propre, rapide et prêt pour les investisseurs.",
+    "clients": [
+      {
+        "title": "Petites Entreprises",
+        "description": "Prêtes à passer au numérique"
+      },
+      {
+        "title": "Agences",
+        "description": "Cherchant à externaliser ou à faire du white-label"
+      },
+      {
+        "title": "Créateurs de Contenu",
+        "description": "Coach, fondateurs solo et entrepreneurs"
+      },
+      {
+        "title": "Marques E-commerce",
+        "description": "Qui veulent plus de conversions"
+      },
+      {
+        "title": "Startups",
+        "description": "Qui ont besoin de quelque chose de propre, rapide et prêt pour les investisseurs"
+      },
+      {
+        "title": "Entreprises Internationales",
+        "description": "Du Canada à l'Europe, des États-Unis au Maroc"
+      }
+    ],
+    "lets_work_title": "Travaillons Ensemble",
+    "lets_work_description": "Nous ne construisons pas seulement des sites web. Nous créons des expériences numériques qui font que les gens restent, scrollent et cliquent.",
+    "get_started_button": "Commencer un Projet",
+    "email_title": "Contactez-nous",
+    "location_title": "Notre Localisation",
+    "location_description": "Basés sur Terre, travaillant à distance partout"
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "subtitle": "Découvrez comment Aress Technologies collecte, utilise et protège vos données personnelles",
+    "last_updated": "Dernière mise à jour",
+    "update_date": "01 Décembre 2024",
+    "introduction_title": "Introduction",
+    "introduction": "Aress Technologies s'engage à protéger la confidentialité et la sécurité des données personnelles de ses utilisateurs. Cette Politique de Confidentialité explique quelles informations nous collectons, comment nous les utilisons, les conditions dans lesquelles nous les partageons, et les droits des utilisateurs concernant leurs données.\n\nEn accédant à notre site web aress.cloud (ci-après dénommé « le Site ») ou en utilisant nos services, vous acceptez les pratiques décrites dans cette politique.",
+    "section1": {
+      "title": "1. Collecte des données personnelles",
+      "description": "Nous collectons différentes catégories de données personnelles en fonction de votre interaction avec le Site :",
+      "subsection1": {
+        "title": "1.1 Données que vous fournissez directement :",
+        "items": [
+          "Informations d'inscription : Nom, prénom, adresse e-mail, numéro de téléphone, nom de l'entreprise, mot de passe.",
+          "Informations sur les transactions : Adresse de facturation, détails des paiements, historique des transactions.",
+          "Documents nécessaires à la vérification : Copies de la pièce d'identité ou autres justificatifs d'identité."
+        ]
+      },
+      "subsection2": {
+        "title": "1.2 Données collectées automatiquement :",
+        "items": [
+          "Données techniques : Adresse IP, type de navigateur, système d'exploitation, identifiants de l'appareil.",
+          "Données de navigation : Pages visitées, temps passé sur le Site, interactions avec le contenu.",
+          "Cookies et technologies similaires : Voir section 7 pour plus de détails."
+        ]
+      },
+      "subsection3": {
+        "title": "1.3 Données provenant de tiers :",
+        "description": "Nous pouvons recevoir des données personnelles vous concernant via :",
+        "items": [
+          "Des partenaires commerciaux (ex. : intégration avec des outils tiers).",
+          "Des services de vérification d'identité.",
+          "Des bases de données accessibles au public ou des réseaux sociaux si vous interagissez avec nos pages."
+        ]
+      }
+    },
+    "section2": {
+      "title": "2. Utilisation des données personnelles",
+      "description": "Nous utilisons vos données pour :",
+      "items": [
+        "Fournir nos services : Créer et gérer votre compte, permettre l'utilisation des fonctionnalités du Site, faciliter les transactions entre les entreprises et les commerciaux.",
+        "Améliorer l'expérience utilisateur : Personnaliser le contenu et les recommandations, analyser les données d'utilisation pour optimiser nos services.",
+        "Respecter nos obligations légales : Vérification d'identité, conformité fiscale et réglementaire.",
+        "Communiquer avec vous : Notifications sur les mises à jour, alertes de sécurité, promotions ou offres spéciales.",
+        "Garantir la sécurité : Prévenir les fraudes, sécuriser les transactions et détecter les activités non autorisées."
+      ]
+    },
+    "section3": {
+      "title": "3. Partage des données personnelles",
+      "description": "Vos données personnelles ne seront jamais vendues. Nous partageons vos données uniquement dans les circonstances suivantes :",
+      "subsection1": {
+        "title": "3.1 Avec des tiers de confiance :",
+        "items": [
+          "Prestataires de services : Hébergement, services de paiement, outils d'analyse, support client.",
+          "Partenaires commerciaux : Dans le cadre de collaborations pour offrir des services complémentaires."
+        ]
+      },
+      "subsection2": {
+        "title": "3.2 Pour des raisons légales :",
+        "items": [
+          "Si requis par la loi, une ordonnance de justice ou une autorité réglementaire.",
+          "Pour protéger nos droits, prévenir les fraudes ou répondre à des litiges."
+        ]
+      },
+      "subsection3": {
+        "title": "3.3 En cas de changement structurel :",
+        "description": "Si Aress Technologies est impliqué dans une fusion, une acquisition ou une vente d'actifs, vos données pourraient être transférées au nouvel organisme."
+      }
+    },
+    "section4": {
+      "title": "4. Conservation des données",
+      "description": "Nous conservons vos données personnelles aussi longtemps que nécessaire pour :",
+      "items": [
+        "Fournir nos services.",
+        "Respecter nos obligations légales et contractuelles.",
+        "Résoudre les litiges ou faire valoir nos droits."
+      ],
+      "conclusion": "Une fois ces délais expirés, vos données seront supprimées ou anonymisées."
+    },
+    "section5": {
+      "title": "5. Droits des utilisateurs",
+      "description": "En conformité avec la législation marocaine (notamment la loi n° 09-08) et le RGPD si applicable, vous disposez des droits suivants :",
+      "rights": [
+        "Accès : Demander une copie des données personnelles détenues par Aress Technologies.",
+        "Rectification : Corriger les informations inexactes ou incomplètes.",
+        "Suppression : Demander la suppression de vos données (sauf obligations légales ou contractuelles).",
+        "Portabilité : Recevoir vos données dans un format structuré et lisible par machine.",
+        "Opposition : Refuser le traitement de vos données à des fins de marketing direct.",
+        "Restriction : Limiter temporairement le traitement de vos données dans certaines circonstances."
+      ],
+      "contact_info": "Pour exercer vos droits, contactez-nous à l'adresse suivante : contact@aress.cloud."
+    },
+    "section6": {
+      "title": "6. Sécurité des données",
+      "description": "Nous mettons en œuvre des mesures techniques et organisationnelles pour protéger vos données contre :",
+      "items": [
+        "Les accès non autorisés.",
+        "La perte ou la destruction accidentelle.",
+        "Les actes malveillants (cyberattaques, piratage)."
+      ],
+      "conclusion": "Nos systèmes intègrent des technologies de cryptage, des pare-feu, et des audits réguliers de sécurité."
+    },
+    "section7": {
+      "title": "7. Utilisation des cookies",
+      "description": "Nous utilisons des cookies et des technologies similaires pour améliorer votre expérience.",
+      "subsection1": {
+        "title": "7.1 Types de cookies :",
+        "items": [
+          "Essentiels : Nécessaires au bon fonctionnement du Site.",
+          "Analytique : Pour suivre les performances et l'utilisation du Site.",
+          "Marketing : Pour personnaliser les publicités et contenus."
+        ]
+      },
+      "subsection2": {
+        "title": "7.2 Gérer vos préférences :",
+        "description": "Vous pouvez configurer votre navigateur pour refuser ou limiter l'utilisation des cookies. Toutefois, cela pourrait affecter certaines fonctionnalités du Site."
+      }
+    },
+    "section8": {
+      "title": "8. Transfert international des données",
+      "description": "Vos données peuvent être transférées et stockées en dehors du Maroc, y compris dans des pays offrant un niveau de protection des données différent. Nous veillons à ce que tous les transferts soient encadrés par des garanties appropriées, conformément aux lois applicables."
+    },
+    "section9": {
+      "title": "9. Responsabilité des utilisateurs",
+      "description": "En tant qu'utilisateur, vous êtes responsable de :",
+      "items": [
+        "Fournir des informations exactes et à jour.",
+        "Protéger vos identifiants de connexion et mots de passe.",
+        "Signaler toute suspicion d'utilisation frauduleuse de votre compte."
+      ]
+    },
+    "section10": {
+      "title": "10. Modifications de la Politique de Confidentialité",
+      "description": "Nous nous réservons le droit de modifier cette politique pour refléter les évolutions légales ou opérationnelles. Toute mise à jour sera publiée sur cette page avec une date de révision."
+    },
+    "section11": {
+      "title": "11. Nous contacter",
+      "description": "Pour toute question ou préoccupation concernant cette Politique de Confidentialité, vous pouvez nous contacter :",
+      "contact_details": [
+        "Adresse postale : Aress Technologies, 332 Bd Brahim Roudani, Maarif, Casablanca, Maroc.",
+        "E-mail : contact@aress.cloud"
+      ],
+      "conclusion": "Cette Politique de Confidentialité reflète notre engagement à respecter vos données et à garantir une transparence totale sur leur utilisation."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Questions sur cette politique ? Écrivez-nous à contact@aress.cloud ou via notre page de contact.",
+    "contact_button": "Nous Contacter",
+    "email_button": "Envoyer un E-mail"
+  }
+}
+  ,
+  "terms": {
+    "title": "Conditions d'Utilisation",
+    "subtitle": "Lisez nos conditions d'utilisation et découvrez les règles d'utilisation de notre site web",
+    "last_updated": "Dernière mise à jour",
+    "update_date": "Juillet 2025",
+    "welcome": {
+      "title": "Bienvenue",
+      "description": "Bienvenue sur notre site web",
+      "acceptance": "En naviguant ou en utilisant nos services, vous acceptez pleinement les présentes Conditions d'Utilisation. Si cela ne vous convient pas, n'utilisez pas notre site."
+    },
+    "section1": {
+      "title": "Accès au site",
+      "description": "L'accès à notre site est gratuit et ouvert à tous.",
+      "features": "Cependant, certaines fonctionnalités peuvent nécessiter un contact direct ou un devis personnalisé.",
+      "modification": "Nous nous réservons le droit de modifier ou suspendre le site sans préavis (mais on évite de ghoster)."
+    },
+    "section2": {
+      "title": "Propriété intellectuelle",
+      "description": "Tout le contenu du site — textes, images, vidéos, code, design — est la propriété exclusive de Aress, sauf mention contraire.",
+      "restriction": "Reproduction, diffusion ou utilisation sans autorisation = non."
+    },
+    "section3": {
+      "title": "Utilisation correcte du site",
+      "description": "Vous vous engagez à :",
+      "commitments": [
+        "Ne pas utiliser le site à des fins illégales ou frauduleuses",
+        "Ne pas tenter de pirater, spammer ou surcharger nos serveurs",
+        "Respecter notre agence, notre contenu et notre travail (oui, on voit tout)"
+      ]
+    },
+    "section4": {
+      "title": "Responsabilités",
+      "description": "On fait tout pour que le site soit à jour, rapide et sans bug… Mais on ne garantit pas qu'il soit 100% parfait ou dispo 24h/24.",
+      "no_liability": "Aress ne pourra être tenu responsable en cas de :",
+      "exclusions": [
+        "Bug technique temporaire",
+        "Mauvaise interprétation d'un contenu",
+        "Utilisation abusive ou non autorisée du site"
+      ]
+    },
+    "section5": {
+      "title": "Liens externes",
+      "description": "Certaines pages peuvent contenir des liens vers d'autres sites (outils, services, blogs). On vérifie les sources, mais on ne contrôle pas leur contenu ou politique de confidentialité."
+    },
+    "section6": {
+      "title": "Modification des conditions",
+      "description": "Ces Conditions d'Utilisation peuvent être mises à jour à tout moment. Vous serez informé via le site. La version la plus récente sera toujours disponible ici."
+    },
+    "section7": {
+      "title": "Droit applicable",
+      "description": "Les présentes conditions sont régies par les lois en vigueur au Canada. Tout litige sera soumis aux juridictions compétentes."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Des questions ? Un souci ? Contactez-nous à contact@aress.cloud",
+      "contact_button": "Nous Contacter",
+      "email_button": "Envoyer un E-mail"
+    }
+  },
+"closers": {
+  "hero_title": "Travaillez librement",
+  "hero_description": "Faites le métier qui vous passionne, travaillez selon vos horaires et choisissez les missions qui vous conviennent.",
+  "cta_button": "Inscription",
+  "stats_title": "Aress en chiffres",
+  "stats_description": "Rejoignez la révolution, choisissez les projets qui vous passionnent, réalisez des transactions et gagnez des commissions.",
+  "closers_registered": "Closers inscrits",
+  "projects_available": "Projets disponibles",
+  "commissions_distributed": "Commissions distribuées",
+  "how_it_works_title": "Comment ça marche ?",
+  "step1_title": "Inscrivez vous gratuitement",
+  "step1_description": "Créez votre compte en quelques clics et accédez gratuitement à la plateforme. Inscrivez-vous avec vos informations personnelles pour démarrer.",
+  "step2_title": "Complétez votre profil",
+  "step2_description": "Renseignez vos compétences, expériences et préférences pour vous démarquer auprès des entreprises. Un profil complet augmente vos chances d'être sélectionné.",
+  "step3_title": "Choisissez vos projets",
+  "step3_description": "Parcourez les missions disponibles (Projet) et sélectionnez celles qui correspondent à vos compétences, disponibilités et objectifs professionnels.",
+  "step4_title": "Commencez à travailler",
+  "step4_description": "Rejoignez un projet, commencer à travailler à votre guise et réalisez des deals. Suivez vos progrès directement sur la plateforme.",
+  "step5_title": "Recevez vos commission",
+  "step5_description": "Une fois le deal validée, recevez rapidement vos paiements en toute transparence. Vos efforts sont récompensés à la hauteur de vos performances.",
+  "faq_title": "Questions fréquentes",
+  "video_title": "Aress en vidéo",
+  "payment_process_title": "Comment je suis payé ?",
+  "understanding_aress_title": "Comprendre Aress en 45 secondes",
+  "faq_q1": "1. Comment s'inscrire sur Aress ?",
+  "faq_a1": "Commencez par vous inscrire en tant que Closer en saisissant votre email et votre mot de passe. Ensuite, renseignez votre profil en ajoutant vos expériences, les langues que vous parlez et vos disponibilités par semaine.\n\nUne fois votre profil créé et validé, complétez les infos restantes (ex. vidéo de présentation de 30 secondes).\n\n📌 Note : Plus votre profil est complet, plus vous avez de chances d'être accepté dans plusieurs projets.",
+  "faq_q2": "2. Comment suis-je payé ?",
+  "faq_a2": "Vous êtes payé pour chaque deal réalisé, c'est-à-dire pour chaque résultat obtenu.\n\n💼 Un deal peut être :\n✔️ Un rendez-vous confirmé\n✔️ Une vente effectuée\n✔️ Tout autre résultat commercial demandé\n\nLes paiements se font par virement bancaire sur votre compte.",
+  "faq_q3": "3. Quand suis-je payé ?",
+  "faq_a3": "Le paiement des deals validés se fait une fois par semaine, chaque lundi.\n\n📅 Vous recevez chaque début de semaine toutes les commissions générées la semaine précédente.",
+  "faq_q4": "4. Comment être sûr d'être payé ?",
+  "faq_a4": "Aress ne travaille qu'avec des entreprises fiables.\nUn système de caution garantit toutes les commissions.\n\n🔹 Badge bleu \"Commission garantie\" : Aress a encaissé la commission à l'avance.\n🔹 Projets sans badge : Très faible risque, mais possible retard de paiement.\n\n⚠️ En cas d'incident, Aress exclut le Business et trouve un arrangement avec les Closers.",
+  "faq_q5": "5. Est-ce que je suis payé pour les heures travaillées ?",
+  "faq_a5": "❌ Non, Aress fonctionne sur un modèle de paiement au résultat.\nVous travaillez en freelance : vous utilisez vos moyens pour fournir des résultats.\n\n➡️ Chaque résultat fourni est bien rémunéré.",
+  "faq_q6": "6. Combien puis-je gagner en réalisant des deals ?",
+  "faq_a6": "Cela dépend de votre engagement et des projets.\n\n📊 Objectif : permettre à un Closer à plein temps de gagner entre 6 000 et 10 000 dirhams/mois.\n\n📈 Gagner plus ou moins dépend uniquement de vous.",
+  "faq_q7": "7. Dois-je payer quelque chose pour commencer sur Aress ?",
+  "faq_a7": "💰 Non, aucun paiement n'est requis.\n✅ L'inscription est gratuite.\n✅ Vous pouvez rejoindre autant de projets que vous voulez.\n\n🚀 Rejoignez Aress dès maintenant et commencez à closer vos premiers deals !"
+}
+}
