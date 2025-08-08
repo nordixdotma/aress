@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useState, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from 'lucide-react'
 import { useLanguage } from "@/lib/language-context"
@@ -194,46 +194,68 @@ function HowItWorksSection() {
 
         <div className="mx-auto max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-6">
           {steps.map((step, index) => (
-            <div key={index} className="border border-border rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-primary hover:ring-1 hover:ring-primary/20 group bg-card/20 backdrop-blur-sm">
-              <button
-                onClick={() => toggleStep(index)}
-                className="flex w-full items-center justify-between p-4 md:p-6 text-left focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-                aria-expanded={openIndex === index}
-                aria-controls={`step-content-${index}`}
-              >
-                <div className="flex items-center space-x-4">
-                  <div className="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold" aria-hidden="true">
-                    {index + 1}
-                  </div>
-                  <h3 className="text-base md:text-lg font-semibold text-card-foreground group-hover:text-primary transition-colors duration-300">
-                    {step.title}
-                  </h3>
-                </div>
-                <ArrowRight
-                  className={`h-5 w-5 text-primary transition-transform duration-300 flex-shrink-0 ml-4 ${
-                    openIndex === index ? "rotate-90" : ""
-                  }`}
-                  aria-hidden="true"
-                />
-              </button>
-              <div
-                id={`step-content-${index}`}
-                style={{
-                  maxHeight: openIndex === index ? "200px" : "0px",
-                  transition: "max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding 0.2s ease-in-out",
-                  opacity: openIndex === index ? 1 : 0,
-                  padding: openIndex === index ? "0 24px 24px 24px" : "0 24px",
-                  overflow: "hidden",
-                }}
-                aria-hidden={openIndex !== index}
-              >
-                <p className="text-muted-foreground ml-12">{step.description}</p>
-              </div>
-            </div>
+            <HowItWorksItem
+              key={index}
+              step={step}
+              index={index}
+              isOpen={openIndex === index}
+              onClick={() => toggleStep(index)}
+            />
           ))}
         </div>
       </div>
     </section>
+  )
+}
+
+interface HowItWorksItemProps {
+  step: { title: string; description: string }
+  index: number
+  isOpen: boolean
+  onClick: () => void
+}
+
+function HowItWorksItem({ step, index, isOpen, onClick }: HowItWorksItemProps) {
+  const contentRef = useRef<HTMLDivElement>(null)
+
+  return (
+    <div className="border border-border rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-primary hover:ring-1 hover:ring-primary/20 group bg-card/20 backdrop-blur-sm">
+      <button
+        onClick={onClick}
+        className="flex w-full items-center justify-between p-4 md:p-6 text-left focus:outline-none"
+        aria-expanded={isOpen}
+        aria-controls={`step-content-${index}`}
+      >
+        <div className="flex items-center space-x-4">
+          <div className="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold" aria-hidden="true">
+            {index + 1}
+          </div>
+          <h3 className="text-base md:text-lg font-semibold text-card-foreground group-hover:text-primary transition-colors duration-300">
+            {step.title}
+          </h3>
+        </div>
+        <ArrowRight
+          className={`h-5 w-5 text-primary transition-transform duration-300 flex-shrink-0 ml-4 ${
+            isOpen ? "rotate-90" : ""
+          }`}
+          aria-hidden="true"
+        />
+      </button>
+      <div
+        ref={contentRef}
+        id={`step-content-${index}`}
+        style={{
+          maxHeight: isOpen ? `${contentRef.current?.scrollHeight}px` : "0px",
+          transition: "max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding 0.2s ease-in-out",
+          opacity: isOpen ? 1 : 0,
+          padding: isOpen ? "0 16px 20px 16px" : "0 16px",
+          overflow: "hidden",
+        }}
+        aria-hidden={!isOpen}
+      >
+        <p className="text-muted-foreground ml-12">{step.description}</p>
+      </div>
+    </div>
   )
 }
 
@@ -299,41 +321,62 @@ function ClosersFaqSection() {
 
         <div className="mx-auto max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-6">
           {faqItems.map((item, index) => (
-            <div key={index} className="border border-border rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-primary hover:ring-1 hover:ring-primary/20 group bg-card/20 backdrop-blur-sm">
-              <button
-                onClick={() => toggleFaq(index)}
-                className="flex w-full items-center justify-between p-4 md:p-6 text-left focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-                aria-expanded={openIndex === index}
-                aria-controls={`faq-content-${index}`}
-              >
-                <h3 className="text-base md:text-lg font-semibold text-card-foreground group-hover:text-primary transition-colors duration-300">
-                  {item.question}
-                </h3>
-                <ArrowRight
-                  className={`h-5 w-5 text-primary transition-transform duration-300 flex-shrink-0 ml-4 ${
-                    openIndex === index ? "rotate-90" : ""
-                  }`}
-                  aria-hidden="true"
-                />
-              </button>
-              <div
-                id={`faq-content-${index}`}
-                style={{
-                  maxHeight: openIndex === index ? "400px" : "0px",
-                  transition: "max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding 0.2s ease-in-out",
-                  opacity: openIndex === index ? 1 : 0,
-                  padding: openIndex === index ? "0 16px 16px 16px" : "0 16px",
-                  overflow: "hidden",
-                }}
-                aria-hidden={openIndex !== index}
-              >
-                <div className="text-muted-foreground whitespace-pre-line">{item.answer}</div>
-              </div>
-            </div>
+            <ClosersFaqItem
+              key={index}
+              question={item.question}
+              answer={item.answer}
+              isOpen={openIndex === index}
+              onClick={() => toggleFaq(index)}
+            />
           ))}
         </div>
       </div>
     </section>
+  )
+}
+
+interface ClosersFaqItemProps {
+  question: string
+  answer: string
+  isOpen: boolean
+  onClick: () => void
+}
+
+function ClosersFaqItem({ question, answer, isOpen, onClick }: ClosersFaqItemProps) {
+  const contentRef = useRef<HTMLDivElement>(null)
+
+  return (
+    <div className="border border-border rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-primary hover:ring-1 hover:ring-primary/20 group bg-card/20 backdrop-blur-sm">
+      <button
+        onClick={onClick}
+        className="flex w-full items-center justify-between p-4 md:p-6 text-left focus:outline-none"
+        aria-expanded={isOpen}
+        aria-controls={`faq-content-${Math.random()}`}
+      >
+        <h3 className="text-base md:text-lg font-semibold text-card-foreground group-hover:text-primary transition-colors duration-300">
+          {question}
+        </h3>
+        <ArrowRight
+          className={`h-5 w-5 text-primary transition-transform duration-300 flex-shrink-0 ml-4 ${
+            isOpen ? "rotate-90" : ""
+          }`}
+          aria-hidden="true"
+        />
+      </button>
+      <div
+        ref={contentRef}
+        style={{
+          maxHeight: isOpen ? `${contentRef.current?.scrollHeight}px` : "0px",
+          transition: "max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding 0.2s ease-in-out",
+          opacity: isOpen ? 1 : 0,
+          padding: isOpen ? "0 16px 20px 16px" : "0 16px",
+          overflow: "hidden",
+        }}
+        aria-hidden={!isOpen}
+      >
+        <div className="text-muted-foreground whitespace-pre-line">{answer}</div>
+      </div>
+    </div>
   )
 }
 
